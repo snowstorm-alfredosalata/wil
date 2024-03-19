@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link data-trunk rel="copy-dir" href="static" />
+    
+    <link rel="data/json" href="static/data.json" update="100"/>
+    <script src="static/wil.js"></script>
+</head>
+<body>
+    <e-if>
+        my_var < 10
+    </e-if>
+    <e-then>
+        <div>
+            Wowzies, my_var is > 10!
+        </div>
+    </e-then>
+    <e-else>
+        <div>
+            Meh, still only <e-e>my_var</e-e>!
+        </div>
+    </e-else>
+</body>
+</html>
